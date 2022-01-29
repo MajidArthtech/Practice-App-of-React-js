@@ -1,11 +1,15 @@
+// import GoogleLogin from "react-google-login";
+// import Facebook from "./FacebookLogin/Facebook";
 
-import Login from "./GoogleLoginApi/Google"
+import React from "react";
+import HomeContainers from './containers/HomeContainers'
+
+
 const App = () => {
   return (
     <div className='App'>
-    <Login/>
-    </div>
+  <HomeContainers/>
+        </div>
   )
 }
-
-export default App
+export default App;
